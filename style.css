@@ -15,7 +15,7 @@ body {
     color: #00abf0;
     padding: 15px;
     font-size: 19px;
-    margin-top: 20px;
+    margin-top: 0px;
     
   }
 
@@ -46,6 +46,13 @@ body {
     color: #f00b0b;
     text-decoration: none;
   }
+#navbarNav span{
+  color: #00abf0;
+}
+#navbarNav span:hover{
+  color: #ededed;
+}
+
   /* name */
 
 /* /* @media (max-width: 1118px) */
@@ -160,3 +167,1006 @@ h1 {
     background-color: #00abf0;
     color: #081b29;
 }
+
+
+
+
+/* h1 */
+h1{
+  color:#00abf0;
+}
+
+
+
+/* about header section */
+
+
+
+element.style {
+}
+@media (max-width: 700px)
+.about-section h2, .contact-us h3, .skills h1, .education h2 {
+    font-size: 1.7rem;
+}
+
+@media (max-width: 799px)
+.about-section h2, .contact-us h3, .skills h1, .education h2 {
+    font-size: 2.1rem;
+}
+@media (max-width: 900px)
+.about-section h2, .contact-us h3, .skills h1, .education h2 {
+    font-size: 2.5rem;
+}
+.about-section h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    /* scroll-behavior: smooth; */
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* image */
+.image{
+  text-align: center;
+}
+
+element.style {
+}
+.image .circle {
+    position: absolute;
+    top: 39%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 38%;
+    height: 27%;
+    border-radius: 50%;
+    border-top: 0.2rem solid var(--bg-color);
+    border-bottom: 0.2rem solid var(--bg-color);
+    border-left: 0.2rem solid var(--main-color);
+    border-right: 0.2rem solid var(--main-color);
+}
+span {
+    color: #00abf0;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    /* scroll-behavior: smooth; */
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* font h1 */
+
+.front h1{
+  text-align: center;
+}
+/* resume */
+
+.button{
+  /* text-align: center; */
+}
+
+element.style {
+}
+.button a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: var(--bg-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .3s;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    /* scroll-behavior: smooth; */
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+.button a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    background: var(--bg-color);
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+}
+
+
+/* contact h1 */
+
+
+element.style {
+}
+@media (max-width: 900px)
+.about-section h2, .contact-us h3, .skills h1, .education h2 {
+    font-size: 2.5rem;
+}
+.contact-us h3 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.contact-us {
+    min-height: auto;
+    text-align: center;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* contact name */
+
+
+element.style {
+}
+.contact-us form .input-box .input-field input, .textarea textarea {
+    width: 100%;
+    height: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    background: transparent;
+    border: 0.1rem solid var(--main-color);
+    border-radius: 0.5rem;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+user agent stylesheet
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+}
+user agent stylesheet
+input {
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.contact-us form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-us {
+    min-height: auto;
+    text-align: center;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* contact submit button */
+element.style {
+}
+@media (max-width: 1050px)
+.btn-box .btn {
+    width: 10rem;
+    height: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.btn-box .btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: var(--bg-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .3s;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.contact-us form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-us {
+    min-height: auto;
+    text-align: center;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+.btn-box .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    background: var(--bg-color);
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+}
+.contact-us{
+  
+}
+
+/* skills h1 section */
+
+element.style {
+}
+@media (max-width: 900px)
+.about-section h2, .contact-us h3, .skills h1, .education h2 {
+    font-size: 2.5rem;
+}
+.skills h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* skills my coding section */
+
+element.style {
+}
+.skills-box .skills-content {
+    position: relative;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* skills html section */
+
+
+element.style {
+}
+.progress {
+    padding: 1rem 0;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* skills h1 html */
+
+element.style {
+}
+.progress h4 {
+    display: flex;
+    justify-content: space-between;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* skills percentage section htmk */
+
+element.style {
+}
+.skills-content .progress .bar {
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--main-color);
+    padding: 0.3rem;
+    margin: 0.1rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* skill css */
+
+element.style {
+}
+.progress {
+    padding: 1rem 0;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+
+element.style {
+}
+.progress h4 {
+    display: flex;
+    justify-content: space-between;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* css */
+
+element.style {
+}
+.skills-content .progress .bar {
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--main-color);
+    padding: 0.3rem;
+    margin: 0.1rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* css ud */
+
+element.style {
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
+    width: 80%;
+}
+.skills-content .progress .bar span {
+    display: block;
+    height: 100%;
+    background: var(--main-color);
+    border-radius: 0.4rem;
+}
+span {
+    color: #00abf0;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+#skills{
+  /* float: left; */
+}
+
+.progress, h4{
+  height: 100px;
+  color: #00abf0;
+}
+
+
+/* skills web dv */
+
+element.style {
+}
+.progress h4 {
+    display: flex;
+    justify-content: space-between;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+
+/* skills cl bg */
+.skills-column{
+  background-color: #081b29;
+}
+.progress{
+  background-color: #081b29;
+}
+
