@@ -1,0 +1,477 @@
+body{
+    padding-top: 2px;
+}
+  
+  element.style {
+}
+@media (max-width: 900px)
+.about-section h2, .contact-us h3, .skills h1, .education h2 {
+    font-size: 2.5rem;
+}
+.education h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/* body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* education */
+
+element.style {
+}
+@media (max-width: 1050px)
+.title {
+    margin-top: 1.5rem;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 1.6rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/* body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* eduction full */
+
+element.style {
+}
+.education {
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+}
+section {
+    min-height: 100vh;
+    padding: 7rem 9% 2rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+/* body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* row */
+
+element.style {
+}
+.education-row .education-column {
+    flex: 1 1 10rem;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+/* body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* content */
+
+element.style {
+}
+.education-content .content {
+    position: relative;
+    padding: 1.2rem;
+    border: 0.2px solid var(--main-color);
+    border-radius: 0.5rem;
+    margin-bottom: 0.2rem;
+    z-index: 1;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+/* body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+.education-content .content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--sec-bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+/* cal date */
+
+element.style {
+}
+.year {
+    font-weight: 600;
+    color: var(--text-color);
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+/* body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+} */
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* b.sc */
+
+element.style {
+}
+.education-content h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: 1px 0 1px;
+    color: var(--main-color);
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* b.sc para */
+
+element.style {
+}
+.education-content p {
+    font-size: .8rem;
+    font-family: monospace;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+/* down arrow */
+.education-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+:root {
+    --bg-color: #081b29;
+    --sec-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+
+/* 
+/* my eduction */
+/* cgp */
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-column {
+    margin-bottom: 10px;
+  }
+
+  .info-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .calendar-icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }

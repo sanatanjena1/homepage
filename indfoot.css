@@ -1,0 +1,37 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  } */
+
+  .content {
+    flex: 1;
+    /* Add your main content styles here */
+  }
+
+  .footer {
+    background-color: #1a3446;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-logo {
+    max-width: 20px;
+    height: auto;
+    margin: 0 10px;
+  }
+
+  .author-details {
+    text-align: center;
+  }
